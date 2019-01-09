@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/z-Alger/cordova-bluetooth-print.git"
+    "url": "git+https://github.com/z-Alger/cordova-bluetooth-print-self.git"
   },
   "author": "",
   "license": "ISC",
