@@ -1,5 +1,5 @@
 {
-  "name": "cordova-bluetooth-print",
+  "name": "cordova-bluetooth-print-self",
   "version": "1.0.0",
   "description": "\u001b[A\u001b[Bcordova-bluetooth-prints",
   "main": "index.js",
@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/z-Alger/cordova-bluetooth-print/issues"
+    "url": "https://github.com/z-Alger/cordova-bluetooth-print-self/issues"
   },
   "homepage": "https://github.com/z-Alger/cordova-bluetooth-print#readme"
 }
