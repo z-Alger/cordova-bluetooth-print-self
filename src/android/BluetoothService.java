@@ -62,28 +62,28 @@ public class BluetoothService {
     public static final int STATE_CONNECTING = 2; // now initiating an outgoing connection
     public static final int STATE_CONNECTED = 3;  // now connected to a remote device
 
-//    public static final String[] items = { "复位打印�?", "标准ASCII字体", "压缩ASCII字体", "字体大小:00","字体大小:02","字体大小:06",   
+//    public static final String[] items = { "复位打印", "标准ASCII字体", "压缩ASCII字体", "字体大小:00","字体大小:02","字体大小:06",   
 //            "字体大小:11", "取消加粗模式", "选择加粗模式", "取消倒置打印", "选择倒置打印", "取消黑白反显", "选择黑白反显",    
-//            "取消顺时针旋�?90°", "选择顺时针旋�?90°","左对�?","居中","右对�?" };    
-    public static final byte[][] byteCommands = { { 0x1b, 0x40 },// 复位打印�?    
+//            "取消顺时针旋90°", "选择顺时针旋90°","左对","居中","右对" };    
+    public static final byte[][] byteCommands = { { 0x1b, 0x40 },// 复位打印    
             { 0x1b, 0x4d, 0x00 },// 标准ASCII字体    
             { 0x1b, 0x4d, 0x01 },// 压缩ASCII字体    
-            { 0x1d, 0x21, 0x00 },// 字体不放�?    
-            { 0x1d, 0x21, 0x02 },// 宽高加�??    
-            { 0x1d, 0x21, 0x11 },// 宽高加�??    
-//            { 0x1d, 0x21, 0x11 },// 宽高加�??    
+            { 0x1d, 0x21, 0x00 },// 字体不放    
+            { 0x1d, 0x21, 0x02 },// 宽高加    
+            { 0x1d, 0x21, 0x11 },// 宽高加    
+//            { 0x1d, 0x21, 0x11 },// 宽高加    
             { 0x1b, 0x45, 0x00 },// 取消加粗模式
             { 0x1b, 0x45, 0x01 },// 选择加粗模式
             { 0x1b, 0x7b, 0x00 },// 取消倒置打印
             { 0x1b, 0x7b, 0x01 },// 选择倒置打印
             { 0x1d, 0x42, 0x00 },// 取消黑白反显
             { 0x1d, 0x42, 0x01 },// 选择黑白反显
-            { 0x1b, 0x56, 0x00 },// 取消顺时针旋�?90°
-            { 0x1b, 0x56, 0x01 },// 选择顺时针旋�?90°
+            { 0x1b, 0x56, 0x00 },// 取消顺时针旋90°
+            { 0x1b, 0x56, 0x01 },// 选择顺时针旋90°
             
-            { 0x1b, 0x61, 0x30 },// 左对�?
+            { 0x1b, 0x61, 0x30 },// 左对
             { 0x1b, 0x61, 0x31 },// 居中对齐
-            { 0x1b, 0x61, 0x32 },// 右对�?
+            { 0x1b, 0x61, 0x32 },// 右对
 //            { 0x1b, 0x69 },// 切纸
     };
     
